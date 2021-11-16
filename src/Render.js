@@ -51,10 +51,7 @@ function renderComponentTabs(config) {
             let source=document.getElementById({...config.click}.source_id);
             let target=document.getElementById({...config.click}.target_id);
             
-            if(!source.value == '')
-                target.style.backgroundColor='green';
-                else
-                target.style.backgroundColor='red';
+            target.textContent=source.value;
         },
         placeholder:{...config.attributes}.placeholder
       },

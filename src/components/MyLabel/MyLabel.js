@@ -3,7 +3,7 @@ function MyLabel(props){
 
 
 return(
-    <label id={props.id} style={{display:'inline-block' ,width:'40px', height:'40px'}}></label>
+    <label id={props.id}></label>
 )
 }
 

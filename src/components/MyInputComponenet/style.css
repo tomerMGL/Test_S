@@ -1,0 +1,9 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+#in1{
+    margin: 1rem;
+}
